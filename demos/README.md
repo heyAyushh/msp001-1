@@ -110,7 +110,9 @@ Let's fix that.
     * Value: Copy the whole content of the publishing profile we opened earlier
   * Click the button "Add secret"
 * Click on "Start commit" then "Commit new file"
-* Wait until the Action has finished executing (<1 minute)
+* Go to your repository, click on "releases" and click "Draft a new release"
+* Give a "Tag version" ex. "1.1", a "Release title" and click "Publish Release"
+* Go to "Actions" tab and Wait until the Action has finished executing (<1 minute)
 * Refresh the default page of our application.
 
 You should see "Express / Welcome to Express" message that is the default for newly created Express application.
